@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-				"doctrine/doctrine-orm-module" : "*"
+				"doctrine/doctrine-orm-module" : "*",
 				"xelax90/learning-context-client-module" : "*"
     },
 		"autoload" : {
