@@ -1,0 +1,20 @@
+{
+    "name": "xelax90/learning-context-client-module-doctrine-orm",
+    "description": "Doctrine ORM extension for xelax90/learning-context-client-module",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Aleksandr",
+            "email": "schurix@gmx.de"
+        }
+    ],
+    "require": {
+				"doctrine/doctrine-orm-module" : "*"
+    },
+		"autoload" : {
+				"psr-0": {
+						"LearningContextClientModuleDoctrineORM\\" : "src/"
+				}
+		}
+}
